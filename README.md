@@ -1,6 +1,9 @@
-# Travel_MCP
+# PackYourBags
 
 An AI-powered travel planning app built with **LangGraph**, **MCP servers**, **Groq**, **Tavily**, **AviationStack**, **OpenWeather**, **PostgreSQL**, and **Streamlit**.
+
+**Live app:** https://packyourbags.streamlit.app/  
+**Repository:** https://github.com/masked-byte18/PackYourBags
 
 The app takes a natural-language travel request such as:
 
@@ -14,7 +17,7 @@ Then a set of specialized agents work together to collect flight guidance, hotel
 
 ## What We Built
 
-Travel_MCP is a multi-agent travel planner. Instead of asking one LLM to do everything, the project breaks travel planning into focused steps:
+PackYourBags is a multi-agent travel planner. Instead of asking one LLM to do everything, the project breaks travel planning into focused steps:
 
 - A **Flight Agent** checks aviation data and creates flight guidance.
 - A **Hotel Agent** uses Tavily search to find hotel and stay information.
@@ -101,7 +104,7 @@ sequenceDiagram
 ## Project Structure
 
 ```text
-Travel_CrewAI_LangGraph/
+PackYourBags/
 ├── frontend.py                         # Streamlit web app
 ├── main.py                             # LangGraph agent workflow
 ├── mcp_client.py                       # MCP client configuration and tool calls
@@ -138,8 +141,8 @@ Do not commit `.env`. It contains private API keys.
 ### 1. Clone The Repository
 
 ```bash
-git clone https://github.com/masked-byte18/Travel_MCP.git
-cd Travel_MCP
+git clone https://github.com/masked-byte18/PackYourBags.git
+cd PackYourBags
 ```
 
 ### 2. Create And Activate Virtual Environment
@@ -202,14 +205,14 @@ If PostgreSQL is unavailable, the app can still run without persistent memory, b
 Git Bash:
 
 ```bash
-cd "/c/Users/rajka/Desktop/Web_Dev/Agentic Projects/Travel_CrewAI_LangGraph"
+cd "/c/Users/rajka/Desktop/Web_Dev/Agentic Projects/PackYourBags"
 ./.venv/Scripts/python.exe -m streamlit run frontend.py
 ```
 
 PowerShell:
 
 ```powershell
-cd "C:\Users\rajka\Desktop\Web_Dev\Agentic Projects\Travel_CrewAI_LangGraph"
+cd "C:\Users\rajka\Desktop\Web_Dev\Agentic Projects\PackYourBags"
 .\.venv\Scripts\python.exe -m streamlit run frontend.py
 ```
 
@@ -357,11 +360,11 @@ Then restart Streamlit.
 ## Repository
 
 ```text
-https://github.com/masked-byte18/Travel_MCP
+https://github.com/masked-byte18/PackYourBags
 ```
 
 ---
 
 ## Summary
 
-Travel_MCP is a practical AI travel planning system. It combines a friendly Streamlit interface with a LangGraph multi-agent backend and MCP-powered external tools. The result is a working travel assistant that can research flights, hotels, weather, and generate complete trip itineraries from a simple prompt.
+PackYourBags is a practical AI travel planning system. It combines a friendly Streamlit interface with a LangGraph multi-agent backend and MCP-powered external tools. The result is a working travel assistant that can research flights, hotels, weather, and generate complete trip itineraries from a simple prompt.

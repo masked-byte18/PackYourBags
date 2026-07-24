@@ -7,8 +7,8 @@ status: "prototype"
 role: "Solo full-stack / AI engineer"
 timeline: "Jul 2026"
 team_size: "solo"
-live_url: ""
-repo_url: "https://github.com/masked-byte18/Travel_MCP"
+live_url: "https://packyourbags.streamlit.app/"
+repo_url: "https://github.com/masked-byte18/PackYourBags"
 cover_image: ""
 ---
 
@@ -263,7 +263,7 @@ flowchart TD
 - Soft degradation paths (no Postgres, no Aviation MCP) keep the demo runnable under incomplete infra.
 
 **Metrics (product analytics):** Unknown — not instrumented in repo.  
-**Live production URL:** Unknown / not published in repo (local Streamlit / Codespaces-style run).
+**Live production URL:** https://packyourbags.streamlit.app/
 
 ## 9. Limitations (honest)
 
